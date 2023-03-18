@@ -80,7 +80,7 @@ def Problem_Description():
 
     # Add the image in the second column
     with col2:
-        image = Image.open(r'C:\Users\macha\OneDrive\Desktop\Deployment\tomandjerry.png')
+        image = Image.open("tomandjerry.png")
         st.image(image,width=700)
 
 
