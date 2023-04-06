@@ -8,3 +8,4 @@ missingno
 category_encoders
 keras
 gunicorn
+streamlit_lottie
