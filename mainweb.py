@@ -220,8 +220,6 @@ def main():
     """
     st.set_page_config(page_title="AUTO INSURANCE CLAIM FRAUD DETECTION APP",page_icon=":guardsman:",layout="wide",initial_sidebar_state="expanded")
     # Create the sidebar menu
-    import streamlit_theme as stt
-    # Read the contents of the CSS file
     with open('style.css') as f:
         css = f.read()
 
