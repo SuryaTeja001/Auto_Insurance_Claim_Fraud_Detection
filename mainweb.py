@@ -134,8 +134,6 @@ def predict_auto_insurance_claim_fraud(TypeOfIncident,TypeOfCollission, Severity
     
 # Template 3: Prediction page
 def prediction_page(name):
-    import streamlit_theme as stt
-    # Read the contents of the CSS file
     with open('style.css') as f:
         css = f.read()
 
